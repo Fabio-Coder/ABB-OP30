@@ -1,0 +1,17 @@
+---------------------
+4600-104618
+Calibration performed 2017-02-03 08:26:26by calibration pendulum
+Resolver offsets before calibration:
+Axis_1 cal_offset 5.7549
+Axis_2 cal_offset 4.2121
+Axis_3 cal_offset 1.4574
+Axis_4 cal_offset 5.9043
+Axis_5 cal_offset 2.9561
+Axis_6 cal_offset 4.7471
+Resolver offsets after calibration:
+Axis_1 cal_offset 6.2445
+Axis_2 cal_offset 3.9286
+Axis_3 cal_offset 2.0951
+Axis_4 cal_offset 5.7885
+Axis_5 cal_offset 2.5705
+Axis_6 cal_offset 5.1428
