@@ -9,7 +9,7 @@ MODULE MainModule
     !   Robo: ABB 4600
     ! Author: Samuel
     ! Atualizacao: Fabio
-	! Data ultima atualizaacao: 12/04/2019
+    ! Data ultima atualizaacao: 12/04/2019
     ! Version: 1.1
     !
     !***********************************************************
@@ -181,7 +181,7 @@ MODULE MainModule
 			! Pega peca na esteira
 			PEG_PEC_EST_ENT;
 		ENDIF
-		! Aguarde até condicoes de entrada
+		! Aguarde atÃ© condicoes de entrada
 		! DI_10_Falha_Haas_1 e DI_11_Falha_Haas_2 => Falha HAAS
 		! DI_24_PortaHaas_1_Aberta e DI_27_PortaHaas_2_Aberta => Porta HAAS aberta
 		! DI_14_RotinaHaas_1 e DI_15_RotinaHaas_2 => Rotina HAAS
@@ -199,7 +199,7 @@ MODULE MainModule
         HOME;
     ENDPROC
 	!***********************************************************
-    !	Rotina de Pega de peça na esteira de entrada
+    !	Rotina de Pega de peÃ§a na esteira de entrada
     !***********************************************************
 	PROC PEG_PEC_EST_ENT()
 		!Se Setup Rotina Haas-1 => 0
@@ -328,7 +328,7 @@ MODULE MainModule
 		Reset DO_13_EntrandoHaas_1;
 		MoveJ P154, v3000, fine, GARRA_2\WObj:=WHAAS_1;
 		! Fora da HAAS1 
-		! Aguarda o robô estar fora da HAAS
+		! Aguarda o robÃ´ estar fora da HAAS
 		WaitTime\InPos, 0.1;
 		! Fim Rotina HAAS 1
         PulseDO\PLength:=2, DO_16_FimRotinaHaas_1;
@@ -407,7 +407,7 @@ MODULE MainModule
 		Reset DO_13_EntrandoHaas_1;
 		MoveJ P154, v3000, fine, GARRA_2\WObj:=WHAAS_1;
 		! Fora da HAAS1 
-		! Aguarda o robô estar fora da HAAS
+		! Aguarda o robÃ´ estar fora da HAAS
 		WaitTime\InPos, 0.1;
 		! Fim Rotina HAAS 1
         PulseDO\PLength:=2, DO_16_FimRotinaHaas_1;
